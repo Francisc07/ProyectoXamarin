@@ -18,7 +18,7 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
 
-                <Image Grid.Row="0" Source="img.png" WidthRequest="100" HeightRequest="100" Margin="0,50,0474747,30"/>
+                <Image Grid.Row="0" Source="img.png" WidthRequest="100" HeightRequest="100" Margin="0,50,0,30"/>
 
 
                 <StackLayout Grid.Row="1"   Padding="30,20" >
