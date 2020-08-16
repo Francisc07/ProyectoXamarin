@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\login",
+    "\\login\\login",
+    "\\login\\login.Android"
   ],
+  "SelectedNode": "\\login.sln",
   "PreviewInSolutionExplorer": false
 }
