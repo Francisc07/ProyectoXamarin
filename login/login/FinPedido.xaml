@@ -7,14 +7,12 @@
              x:Class="login.FinPedido">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" Padding="32" Spacing="10">
-            <Label Text="Paquete entregado a:"  FontSize="Large"/>
-            <Label Text="" HorizontalOptions="Center"  FontSize="Large"  x:Name="lblNom"/>
-            
-            <Label Text="Fecha y Hora:" FontSize="Large"/>
-            <Label Text="" HorizontalOptions="Center" FontSize="Large"  x:Name="lblFecha"/>
-            
-            <Label Text="Monto a Pagar:" FontSize="Large"/>
+
+            <Label Text="Paquete entregado a:" HorizontalOptions="Center" FontSize="Large"/>
+            <Label Text="Fecha y Hora:" HorizontalOptions="Center" FontSize="Large"/>
+            <Label Text="Monto a Pagar:" HorizontalOptions="Center" FontSize="Large"/>
             <Entry x:Name="Monto" />
+            
             
             
             <Button Text="Finalizar Viaje" 

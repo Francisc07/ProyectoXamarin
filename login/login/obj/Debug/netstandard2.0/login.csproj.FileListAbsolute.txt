@@ -63,22 +63,3 @@ C:\Users\Campos Espinoza\Desktop\ProyectoFinalC# TR\login\login\obj\Debug\netsta
 C:\Users\Campos Espinoza\Desktop\ProyectoFinalC# TR\login\login\obj\Debug\netstandard2.0\login.pdb
 C:\Users\Campos Espinoza\Desktop\ProyectoFinalC# TR\login\login\obj\Debug\netstandard2.0\Factura.xaml.g.cs
 C:\Users\Campos Espinoza\Desktop\ProyectoFinalC# TR\login\login\obj\Debug\netstandard2.0\FinPedido.xaml.g.cs
-C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login\bin\Debug\netstandard2.0\login.deps.json
-C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login\bin\Debug\netstandard2.0\login.dll
-C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login\bin\Debug\netstandard2.0\ref\login.dll
-C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login\bin\Debug\netstandard2.0\login.pdb
-C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login\obj\Debug\netstandard2.0\login.csprojAssemblyReference.cache
-C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login\obj\Debug\netstandard2.0\EntregaSinQR.xaml.g.cs
-C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login\obj\Debug\netstandard2.0\Factura.xaml.g.cs
-C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login\obj\Debug\netstandard2.0\FinPedido.xaml.g.cs
-C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login\obj\Debug\netstandard2.0\NewUser.xaml.g.cs
-C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login\obj\Debug\netstandard2.0\PagPrincipal.xaml.g.cs
-C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login\obj\Debug\netstandard2.0\login.AssemblyInfoInputs.cache
-C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login\obj\Debug\netstandard2.0\login.AssemblyInfo.cs
-C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login\obj\Debug\netstandard2.0\login.csproj.CoreCompileInputs.cache
-C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login\obj\Debug\netstandard2.0\login.dll
-C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login\obj\Debug\netstandard2.0\ref\login.dll
-C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login\obj\Debug\netstandard2.0\login.pdb
