@@ -15,6 +15,14 @@ namespace login
         public FinPedido()
         {
             InitializeComponent();
+
+
+            DateTime fecha = DateTime.Now;
+
+
+            lblNom.Text = PagPrincipal.nombreCliente;
+            lblFecha.Text = fecha.ToString();
+
         }
     }
 }

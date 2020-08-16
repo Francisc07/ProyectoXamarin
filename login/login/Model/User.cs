@@ -13,7 +13,6 @@ namespace login.Model
         public int Id { get; set; }
         [MaxLength(100), Unique]
         public String Usuario { get; set; }
-        [MaxLength(100), Unique]
         public String Password { get; set; }
         public String ConfirmarPassword { get; set; }
     }

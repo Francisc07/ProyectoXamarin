@@ -15,7 +15,7 @@ namespace login
     {
 
         string[] nombres = { "User" };
-        string[] cont = { "123" };
+        string[] cont = { "1234" };
         public MainPage()
         {
             InitializeComponent();
