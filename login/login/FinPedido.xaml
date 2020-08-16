@@ -11,16 +11,16 @@
             <StackLayout Orientation="Vertical" Padding="32" Spacing="10">
 
 
-                <Label Text="Paquete entregado a:" FontSize="Large" TextColor="White"/>
+                <Label Text="Paquete entregado a:" HorizontalOptions="Center" FontSize="Large" TextColor="White"/>
                 <Label Text="" HorizontalOptions="Center" FontSize="Large"  x:Name="lblNom" TextColor="White"/>
                 <BoxView HeightRequest="30"></BoxView>
 
-                <Label Text="Fecha y Hora:" FontSize="Large" TextColor="White"/>
+                <Label Text="Fecha y Hora:" HorizontalOptions="Center" FontSize="Large" TextColor="White"/>
                 <Label Text="" HorizontalOptions="Center" FontSize="Large"  x:Name="lblFecha" TextColor="White"/>
                 <BoxView HeightRequest="30"></BoxView>
 
                 <Label Text="Monto a Pagar:" HorizontalOptions="Center" FontSize="Large" TextColor="White"/>
-                <Label Text="₡3200" TextColor="White"/>
+                <Label x:Name="lblMonto" TextColor="White" HorizontalOptions="Center" FontSize="Large"/>
                 <BoxView HeightRequest="30"></BoxView>
 
                 <Button Text="Finalizar Viaje" 

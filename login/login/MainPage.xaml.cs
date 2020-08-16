@@ -24,34 +24,39 @@ namespace login
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            if (txtUser.Text == "" || txtPass.Text =="")
+            if (txtUser.Text == "" || txtPass.Text == "")
             {
                 label1.Text = "Introduzca su usuario y contraseña";
 
             }
             else
             {
-                
+
                 var log = UserRepository.Instancia.Login(txtUser.Text, txtPass.Text);
 
                 if (log.Count() == 0)
                 {
                     label1.Text = "no existe";
                 }
-                else {
-                    
+                else
+                {
+
 
                     if (log.First().Rol == 1)
                     {
                         Navigation.PushAsync(new PagPrincipal("Admin"));
+                        label1.Text = "";
                     }
-                    else {
+                    else
+                    {
                         Navigation.PushAsync(new PagPrincipal("Empleado"));
+                        label1.Text = "";
                     }
                 }
-                
+
 
             }
+
         }
     }
 }

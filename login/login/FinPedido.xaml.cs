@@ -13,17 +13,18 @@ namespace login
     public partial class FinPedido : ContentPage
     {
         public static DateTime fecha = DateTime.Now;
+        public static int  monto ;
         public FinPedido()
         {
             InitializeComponent();
 
 
 
+            Random rnd = new Random();
 
+            monto = rnd.Next(499, 100001);
 
-
-
-
+            lblMonto.Text = "₡ " + monto;
             lblNom.Text = PagPrincipal.nombreCliente;
             lblFecha.Text = fecha.ToString();
         }

@@ -22,16 +22,16 @@ namespace login
             lblCorreo.Text = PagPrincipal.mail;
             lblTelefono.Text = PagPrincipal.telefono;
             lblfecha.Text = FinPedido.fecha.ToString();
-            lblMonto.Text = "3200";
+            lblMonto.Text = "₡ " + FinPedido.monto;
         }
 
         private async void BtnFactura_Clicked(object sender, EventArgs e)
         {
-            BitacoraRepository.Instancia.AddBit(lblNombre.Text, lblfecha.Text, float.Parse(lblMonto.Text));
+            BitacoraRepository.Instancia.AddBit(lblNombre.Text, lblfecha.Text, lblMonto.Text);
 
             List<string> toAddress = new List<string>();
             toAddress.Add("" + lblCorreo.Text);
-            await SendEmail("Factura de entrega Transremont", "Factura del Cliente " + '\n' + "Nombre Cliente: " + PagPrincipal.nombreCliente + '\n' + "Correo: " + PagPrincipal.mail + '\n' + "Telefono: " + PagPrincipal.telefono + '\n' + "Fecha de entrega: " + FinPedido.fecha + '\n' + "Monto Pagado: " + " 3200", toAddress);
+            await SendEmail("Factura de entrega Transremont", "Factura del Cliente \n Nombre Cliente: " + PagPrincipal.nombreCliente + "\n Correo: " + PagPrincipal.mail + "\n Telefono: " + PagPrincipal.telefono + "\n Fecha de entrega: " + FinPedido.fecha + "\n Monto Pagado: " + lblMonto.Text + "", toAddress);
 
             
         }

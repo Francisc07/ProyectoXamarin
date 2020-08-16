@@ -6,33 +6,36 @@
              mc:Ignorable="d"
              x:Class="login.Factura">
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical" Padding="32" Spacing="10">
+        <Grid>
+            <BoxView Color="#1E1D1D" />
+            <StackLayout Orientation="Vertical" Padding="32" Spacing="10">
 
-            <Label Text="Factura del cliente" HorizontalOptions="Center" FontSize="Large" TextColor="Black"/>
+                <Label Text="Factura del cliente" HorizontalOptions="Center" FontSize="Large" TextColor="White"/>
 
-            <Label Text="Nombre cliente" FontSize="Large"  TextColor="Black"/>
-            <Label Text="" x:Name="lblNombre" HorizontalOptions="Center" FontSize="Large"/>
+                <Label Text="Nombre cliente" HorizontalOptions="Center" FontSize="Large"  TextColor="White"/>
+                <Label Text="" x:Name="lblNombre" HorizontalOptions="Center" FontSize="Large" TextColor="White"/>
 
-            <Label Text="Correo" FontSize="Large" TextColor="Black"/>
-            <Label Text="" x:Name="lblCorreo" HorizontalOptions="Center" FontSize="Large"/>
+                <Label Text="Correo" HorizontalOptions="Center" FontSize="Large" TextColor="White"/>
+                <Label Text="" x:Name="lblCorreo" HorizontalOptions="Center" FontSize="Large" TextColor="White"/>
 
-            <Label Text="Telefono" FontSize="Large" TextColor="Black"/>
-            <Label Text="" x:Name="lblTelefono" HorizontalOptions="Center" FontSize="Large"/>
+                <Label Text="Telefono" HorizontalOptions="Center" FontSize="Large" TextColor="White"/>
+                <Label Text="" x:Name="lblTelefono" HorizontalOptions="Center" FontSize="Large" TextColor="White"/>
 
-            <Label Text="Fecha de entrega" FontSize="Large" TextColor="Black"/>
-            <Label Text="" x:Name="lblfecha" HorizontalOptions="Center" FontSize="Large"/>
+                <Label Text="Fecha de entrega" HorizontalOptions="Center" FontSize="Large" TextColor="White"/>
+                <Label Text="" x:Name="lblfecha" HorizontalOptions="Center" FontSize="Large" TextColor="White"/>
 
-            <Label Text="Monto Pagado" FontSize="Large" TextColor="Black"/>
-            <Label Text="" x:Name="lblMonto" HorizontalOptions="Center" FontSize="Large"/>
-            <BoxView HeightRequest="30"></BoxView>
+                <Label Text="Monto Pagado" HorizontalOptions="Center" FontSize="Large" TextColor="White"/>
+                <Label Text="" x:Name="lblMonto" HorizontalOptions="Center" FontSize="Large" TextColor="White"/>
+                <BoxView HeightRequest="30"></BoxView>
 
-            <Button Text="Enviar Factura" 
+                <Button Text="Enviar Factura" 
                         x:Name="BtnFactura"
                         BackgroundColor="#732020" 
                         TextColor="White"
                         BorderRadius="20"
                     Clicked="BtnFactura_Clicked"
                  />
-        </StackLayout>
+            </StackLayout>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

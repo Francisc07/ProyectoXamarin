@@ -38,7 +38,7 @@ namespace login.Model
         }
 
         public string EstadoMensaje;
-        public int AddBit(string ClientEntre, string FechaEntre, float Monto)
+        public int AddBit(string ClientEntre, string FechaEntre, string Monto)
         {
             int result = 0;
             try
@@ -66,6 +66,19 @@ namespace login.Model
                 EstadoMensaje = e.Message;
             }
             return Enumerable.Empty<Bitacora>();
+        }
+
+        public IEnumerable<Bitacora> Borrar()
+        {
+            try
+            {
+                con.Query<Bitacora>("DROP TABLE Bitacora");
+                EstadoMensaje = string.Format("Se Dropeo");
+            }
+            catch (Exception e)
+            { EstadoMensaje = e.Message; }
+            return Enumerable.Empty<Bitacora>();
+
         }
     }
 }

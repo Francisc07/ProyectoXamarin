@@ -12,6 +12,6 @@ namespace login.Model
         public int IdEntre { get; set; }
         public String FechaEntre { get; set; }
         public String ClientEntre { get; set; }
-        public float Monto { get; set; }
+        public String Monto { get; set; }
     }
 }
