@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="login.MainPage">
+
+    <ContentPage.Content>
+        <Grid>
+            <Image Source="BGlogin2.jpg" Aspect="AspectFill"/>
+            <BoxView Color="#B9EDFF" Opacity="0.2"/>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Image Grid.Row="0" Source="img.png" WidthRequest="100" HeightRequest="100" Margin="0,50,0,30"/>
+
+
+                <StackLayout Grid.Row="1"   Padding="30,20" >
+                    <Entry Placeholder=" Usuario" PlaceholderColor="White" x:Name="txtUser"/>
+                    <Entry Placeholder=" Contraseña" PlaceholderColor="White" IsPassword="True" x:Name="txtPass"/>
+                    <Label></Label>
+                    <Button Text="Iniciar Sesion" BorderRadius="25" BackgroundColor="#B9EDFF" Clicked="Button_Clicked"/>
+                    <Label></Label>
+                    <Label  TextColor="#B9EDFF" x:Name="label1"/>
+                </StackLayout>
+
+                    
+
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="login.Factura">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="32" Spacing="10">
+
+            <Label Text="Inserte los Datos del cliente" HorizontalOptions="Center" FontSize="Large"/>
+            <Entry x:Name="txtNombre" Placeholder="Nombre"/>
+            <Entry x:Name="txtTelefono" Placeholder="Telefono"/>
+            <Entry x:Name="Monto" Placeholder="Monto a pagar"/>
+
+
+            <Entry x:Name="txtCorreo" Placeholder="Correo"/>
+            
+            <Button Text="Enviar Factura" 
+                        x:Name="BtnFactura"
+                        BackgroundColor="#732020" 
+                        TextColor="White"
+                        BorderRadius="20"
+                 />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

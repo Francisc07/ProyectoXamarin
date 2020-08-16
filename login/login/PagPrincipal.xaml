@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="login.PagPrincipal">
+    <ContentPage.Content>
+        <Grid>
+            <BoxView Color="#1E1D1D" />
+            <StackLayout>
+                <Image Grid.Row="0" 
+                       Source="logotransremont.jpg" 
+                       WidthRequest="100"
+                       HeightRequest="100"
+                       Margin="0,50,0,30"
+                />
+                
+                <Label Text="Menu de Opciones" 
+                       FontSize="20" 
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                />
+
+                <Button Text="Escanear  codigo  QR" 
+                        BackgroundColor="#732020" 
+                        TextColor="White"
+                        BorderRadius="20"
+                        Clicked="Button_Clicked"
+                />
+
+                <Button Text="Iniciar  Entrega  Sin  QR" 
+                        x:Name="btnToSinQR"
+                        BackgroundColor="#732020" 
+                        TextColor="White"
+                        BorderRadius="20"
+                />
+                
+                <Button Text="Factura" 
+                        x:Name="btnFactura"
+                        BackgroundColor="#732020" 
+                        TextColor="White"
+                        BorderRadius="20"
+                />
+                
+                <Button Text="Bitacora de Entregas" 
+                        x:Name="btnBitacora"
+                        BackgroundColor="#732020" 
+                        TextColor="White"
+                        BorderRadius="20"
+                />
+                
+                <Button Text="Crear  Usuario" 
+                        x:Name="btnToNewUser"
+                        BackgroundColor="#732020" 
+                        TextColor="White"
+                        BorderRadius="20"
+                       
+                />
+                
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="login.NewUser">
+    <ContentPage.Content>
+        <Grid>
+            <BoxView Color="#1E1D1D" />
+            
+            <StackLayout Orientation="Vertical" Padding="32" Spacing="10">
+
+                <Label Text="Registro de Usuarios" HorizontalOptions="Center" FontSize="Large"  TextColor="White"/>
+                <Entry x:Name="txtUsuario" Placeholder="Usuario" PlaceholderColor="White" TextColor="White"/>
+                <Entry x:Name="txtPass1" Placeholder="Contraseña" PlaceholderColor="White" IsPassword="True" TextColor="White"/>
+                <Entry x:Name="txtPass2" Placeholder="Confirmar Contraseña" PlaceholderColor="White" IsPassword="True" TextColor="White"/>
+                <Button Text="Agregar nuevo usuario" 
+                        x:Name="BtnInsert"
+                        BackgroundColor="#732020" 
+                        TextColor="White"
+                        BorderRadius="20"
+                 />
+                
+                <Button Text="Ver Usuarios" 
+                        x:Name="BtnAllUser"
+                        BackgroundColor="#732020" 
+                        TextColor="White"
+                        BorderRadius="20"
+                 />
+
+                <Label x:Name="StatusMessage" FontSize="Medium" TextColor="White"/>
+
+                <ListView x:Name="userList">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid>
+                                    <Label Text="{Binding Usuario}" TextColor="White"/>
+                                    <Label Grid.Column="1" Text="{Binding Password}" TextColor="White"/>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
