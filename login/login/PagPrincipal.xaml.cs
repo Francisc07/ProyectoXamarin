@@ -13,8 +13,8 @@ namespace login
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PagPrincipal : ContentPage
     {
-        static string nombreCliente,telefono,direccion;
-        static string mail;
+        public static string nombreCliente,telefono,direccion;
+        public static string mail;
         string[] datosCliente;
         public PagPrincipal()
         {
@@ -30,6 +30,10 @@ namespace login
             btnFactura.Clicked += (sender, e) =>
             {
                 Navigation.PushAsync(new Factura());
+            };
+            btnBitacora.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Bitacora());
             };
 
         }

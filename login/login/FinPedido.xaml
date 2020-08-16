@@ -6,21 +6,35 @@
              mc:Ignorable="d"
              x:Class="login.FinPedido">
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical" Padding="32" Spacing="10">
+        <Grid>
+            <BoxView Color="#1E1D1D" />
+            <StackLayout Orientation="Vertical" Padding="32" Spacing="10">
 
-            <Label Text="Paquete entregado a:" HorizontalOptions="Center" FontSize="Large"/>
-            <Label Text="Fecha y Hora:" HorizontalOptions="Center" FontSize="Large"/>
-            <Label Text="Monto a Pagar:" HorizontalOptions="Center" FontSize="Large"/>
-            <Entry x:Name="Monto" />
-            
-            
-            
-            <Button Text="Finalizar Viaje" 
+
+                <Label Text="Paquete entregado a:" FontSize="Large" TextColor="White"/>
+                <Label Text="" HorizontalOptions="Center" FontSize="Large"  x:Name="lblNom" TextColor="White"/>
+                <BoxView HeightRequest="30"></BoxView>
+
+                <Label Text="Fecha y Hora:" FontSize="Large" TextColor="White"/>
+                <Label Text="" HorizontalOptions="Center" FontSize="Large"  x:Name="lblFecha" TextColor="White"/>
+                <BoxView HeightRequest="30"></BoxView>
+
+                <Label Text="Monto a Pagar:" HorizontalOptions="Center" FontSize="Large" TextColor="White"/>
+                <Entry x:Name="Monto" Text="" />
+
+                <Label x:Name="StatusMessage" FontSize="Medium" TextColor="White"/>
+
+                <Button Text="Finalizar Viaje" 
                         x:Name="BtnFinalizar"
                         BackgroundColor="#732020" 
                         TextColor="White"
                         BorderRadius="20"
+                    Clicked="BtnFinalizar_Clicked"
                  />
-        </StackLayout>
+
+
+
+            </StackLayout>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

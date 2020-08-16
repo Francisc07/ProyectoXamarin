@@ -5,15 +5,13 @@ using SQLite;
 
 namespace login.Model
 {
-    [Table("Entregas")]
-    class Entregas
+    [Table("bitacora")]
+    class Bitacora
     {
         [PrimaryKey, AutoIncrement]
         public int IdEntre { get; set; }
-        [MaxLength(100), Unique]
-        public DateTime FechaEntre { get; set; }
-        [MaxLength(100), Unique]
+        public String FechaEntre { get; set; }
         public String ClientEntre { get; set; }
-        public String EmailCliEntre { get; set; }
+        public float Monto { get; set; }
     }
 }

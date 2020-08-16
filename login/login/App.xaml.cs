@@ -11,7 +11,7 @@ namespace login
         {
             InitializeComponent();
             UserRepository.Inicializador(filename);
-
+            BitacoraRepository.Inicializador(filename);
             MainPage = new NavigationPage(new MainPage());
         }
 

@@ -34,20 +34,20 @@ namespace login.Model
         private BitacoraRepository(String dbPath)
         {
             con = new SQLiteConnection(dbPath);
-            con.CreateTable<User>();
+            con.CreateTable<Bitacora>();
         }
 
         public string EstadoMensaje;
-        public int AddNewUser(string Usuario, string Password, string ConfirmarPassword)
+        public int AddBit(string ClientEntre, string FechaEntre, float Monto)
         {
             int result = 0;
             try
             {
-                result = con.Insert(new User
+                result = con.Insert(new Bitacora
                 {
-                    Usuario = Usuario,
-                    Password = Password,
-                    ConfirmarPassword = ConfirmarPassword
+                    ClientEntre = ClientEntre,
+                    FechaEntre = FechaEntre,
+                    Monto = Monto
                 });
                 EstadoMensaje = string.Format("Cantidad filas : {0}", result);
             }
@@ -55,17 +55,17 @@ namespace login.Model
             { EstadoMensaje = e.Message; }
             return result;
         }
-        public IEnumerable<User> GetAllUsers()
+        public IEnumerable<Bitacora> GetBit()
         {
             try
             {
-                return con.Table<User>();
+                return con.Table<Bitacora>();
             }
             catch (Exception e)
             {
                 EstadoMensaje = e.Message;
             }
-            return Enumerable.Empty<User>();
+            return Enumerable.Empty<Bitacora>();
         }
     }
 }
