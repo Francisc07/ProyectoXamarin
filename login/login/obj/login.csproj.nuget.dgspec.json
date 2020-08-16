@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell\\Documents\\Eduardo\\Android\\Proyecto\\ProyectoXamarin\\login\\login\\login.csproj": {}
+    "C:\\Users\\franc\\Source\\Repos\\Francisc07\\ProyectoXamarin\\login\\login\\login.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell\\Documents\\Eduardo\\Android\\Proyecto\\ProyectoXamarin\\login\\login\\login.csproj": {
+    "C:\\Users\\franc\\Source\\Repos\\Francisc07\\ProyectoXamarin\\login\\login\\login.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\Documents\\Eduardo\\Android\\Proyecto\\ProyectoXamarin\\login\\login\\login.csproj",
+        "projectUniqueName": "C:\\Users\\franc\\Source\\Repos\\Francisc07\\ProyectoXamarin\\login\\login\\login.csproj",
         "projectName": "login",
-        "projectPath": "C:\\Users\\Dell\\Documents\\Eduardo\\Android\\Proyecto\\ProyectoXamarin\\login\\login\\login.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\Documents\\Eduardo\\Android\\Proyecto\\ProyectoXamarin\\login\\login\\obj\\",
+        "projectPath": "C:\\Users\\franc\\Source\\Repos\\Francisc07\\ProyectoXamarin\\login\\login\\login.csproj",
+        "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\franc\\Source\\Repos\\Francisc07\\ProyectoXamarin\\login\\login\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

@@ -2270,24 +2270,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dell\\.nuget\\packages\\": {},
+    "C:\\Users\\franc\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\Documents\\Eduardo\\Android\\Proyecto\\ProyectoXamarin\\login\\login.Android\\login.Android.csproj",
+      "projectUniqueName": "C:\\Users\\franc\\Source\\Repos\\Francisc07\\ProyectoXamarin\\login\\login.Android\\login.Android.csproj",
       "projectName": "login.Android",
-      "projectPath": "C:\\Users\\Dell\\Documents\\Eduardo\\Android\\Proyecto\\ProyectoXamarin\\login\\login.Android\\login.Android.csproj",
-      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\Documents\\Eduardo\\Android\\Proyecto\\ProyectoXamarin\\login\\login.Android\\obj\\",
+      "projectPath": "C:\\Users\\franc\\Source\\Repos\\Francisc07\\ProyectoXamarin\\login\\login.Android\\login.Android.csproj",
+      "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\franc\\Source\\Repos\\Francisc07\\ProyectoXamarin\\login\\login.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2301,8 +2301,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Dell\\Documents\\Eduardo\\Android\\Proyecto\\ProyectoXamarin\\login\\login\\login.csproj": {
-              "projectPath": "C:\\Users\\Dell\\Documents\\Eduardo\\Android\\Proyecto\\ProyectoXamarin\\login\\login\\login.csproj"
+            "C:\\Users\\franc\\Source\\Repos\\Francisc07\\ProyectoXamarin\\login\\login\\login.csproj": {
+              "projectPath": "C:\\Users\\franc\\Source\\Repos\\Francisc07\\ProyectoXamarin\\login\\login\\login.csproj"
             }
           }
         }
