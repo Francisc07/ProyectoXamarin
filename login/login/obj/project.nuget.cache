@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tMHW7AaACXDEbhUIfK7uNE9OQwB1Ld7lluFQO8dXHlTkgUI9efl/KPV/rDi6cQdXmyZ2aXXLxD6Yz98Al2P9Pg==",
+  "dgSpecHash": "QQ1tgmo9/NBtOJrOPbg1jLbuSdoCbHfNU5JHlYS55EZb0qYTZdtuyrhYFA/Pd4GMizsECWQZrVE/acUCP4jkiQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\franc\\OneDrive\\Desktop\\ProyectoFinalC# TR\\login\\login\\login.csproj",
+  "projectFilePath": "C:\\Users\\franc\\Source\\Repos\\Francisc07\\ProyectoXamarin\\login\\login\\login.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\franc\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\franc\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

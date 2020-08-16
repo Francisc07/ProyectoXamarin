@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cOsMSZqcXCtTzsw93yIHyX/LpWpKZezsU7AJlNmG/dEXkzLn6lOVMPmMfNIb5g9BhVgcQqYPFcplg8zkVtqaGg==",
+  "dgSpecHash": "obvMNmSOAEdp83O35+ryuxxYwmXkfJIeVsKA7tb1Ra60m5rhkMQ/gSQUj1jW44O5csH1HszYx/NtjSOSAUsW4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\franc\\OneDrive\\Desktop\\ProyectoFinalC# TR\\login\\login.Android\\login.Android.csproj",
+  "projectFilePath": "C:\\Users\\franc\\Source\\Repos\\Francisc07\\ProyectoXamarin\\login\\login.Android\\login.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\franc\\.nuget\\packages\\fastandroidcamera\\2.0.0\\fastandroidcamera.2.0.0.nupkg.sha512",
     "C:\\Users\\franc\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",

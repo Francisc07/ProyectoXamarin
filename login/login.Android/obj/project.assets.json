@@ -2276,11 +2276,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\franc\\OneDrive\\Desktop\\ProyectoFinalC# TR\\login\\login.Android\\login.Android.csproj",
+      "projectUniqueName": "C:\\Users\\franc\\Source\\Repos\\Francisc07\\ProyectoXamarin\\login\\login.Android\\login.Android.csproj",
       "projectName": "login.Android",
-      "projectPath": "C:\\Users\\franc\\OneDrive\\Desktop\\ProyectoFinalC# TR\\login\\login.Android\\login.Android.csproj",
+      "projectPath": "C:\\Users\\franc\\Source\\Repos\\Francisc07\\ProyectoXamarin\\login\\login.Android\\login.Android.csproj",
       "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\franc\\OneDrive\\Desktop\\ProyectoFinalC# TR\\login\\login.Android\\obj\\",
+      "outputPath": "C:\\Users\\franc\\Source\\Repos\\Francisc07\\ProyectoXamarin\\login\\login.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2301,8 +2301,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\franc\\OneDrive\\Desktop\\ProyectoFinalC# TR\\login\\login\\login.csproj": {
-              "projectPath": "C:\\Users\\franc\\OneDrive\\Desktop\\ProyectoFinalC# TR\\login\\login\\login.csproj"
+            "C:\\Users\\franc\\Source\\Repos\\Francisc07\\ProyectoXamarin\\login\\login\\login.csproj": {
+              "projectPath": "C:\\Users\\franc\\Source\\Repos\\Francisc07\\ProyectoXamarin\\login\\login\\login.csproj"
             }
           }
         }
