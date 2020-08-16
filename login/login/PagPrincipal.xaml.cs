@@ -16,9 +16,21 @@ namespace login
         public static string nombreCliente,telefono,direccion;
         public static string mail;
         string[] datosCliente;
-        public PagPrincipal()
+        public PagPrincipal(string rol)
         {
             InitializeComponent();
+            if (rol == "Admin")
+            {
+                btnToNewUser.IsVisible = true;
+                btnBitacora.IsVisible = true;
+            }
+            else {
+                btnFactura.IsVisible = true;
+                btnToSinQR.IsVisible = true;
+                btnQr.IsVisible = true;
+                btnBitacora.IsVisible = true;
+
+            }
             btnToNewUser.Clicked += (sender, e) =>
             {
                 Navigation.PushAsync(new NewUser());

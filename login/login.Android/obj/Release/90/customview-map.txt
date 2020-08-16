@@ -35,6 +35,7 @@ item;obj\Release\90\res\values\styles.xml
 LinearLayout;C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login.Android\obj\Release\90\lp\41\jl\res\layout\bottomtablayout.xml
 paths;C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login.Android\obj\Release\90\lp\40\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 resources;C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login.Android\obj\Release\90\lp\41\jl\res\values\attrs.xml
+resources;C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login.Android\obj\Release\90\lp\41\jl\res\values\strings.xml
 resources;C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login.Android\obj\Release\90\lp\41\jl\res\values\styles.xml
 resources;C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login.Android\obj\Release\90\lp\43\jl\res\values\strings.xml
 resources;obj\Release\90\res\values\colors.xml
@@ -43,6 +44,7 @@ set;C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login.Android\o
 set;C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login.Android\obj\Release\90\lp\41\jl\res\anim\enterfromright.xml
 set;C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login.Android\obj\Release\90\lp\41\jl\res\anim\exittoleft.xml
 set;C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login.Android\obj\Release\90\lp\41\jl\res\anim\exittoright.xml
+string;C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login.Android\obj\Release\90\lp\41\jl\res\values\strings.xml
 string;C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login.Android\obj\Release\90\lp\43\jl\res\values\strings.xml
 style;C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login.Android\obj\Release\90\lp\41\jl\res\values\styles.xml
 style;obj\Release\90\res\values\styles.xml

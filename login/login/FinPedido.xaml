@@ -20,9 +20,8 @@
                 <BoxView HeightRequest="30"></BoxView>
 
                 <Label Text="Monto a Pagar:" HorizontalOptions="Center" FontSize="Large" TextColor="White"/>
-                <Entry x:Name="Monto" Text="" />
-
-                <Label x:Name="StatusMessage" FontSize="Medium" TextColor="White"/>
+                <Label Text="₡3200" TextColor="White"/>
+                <BoxView HeightRequest="30"></BoxView>
 
                 <Button Text="Finalizar Viaje" 
                         x:Name="BtnFinalizar"

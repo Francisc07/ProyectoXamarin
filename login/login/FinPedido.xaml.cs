@@ -12,7 +12,7 @@ namespace login
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class FinPedido : ContentPage
     {
-        DateTime fecha = DateTime.Now;
+        public static DateTime fecha = DateTime.Now;
         public FinPedido()
         {
             InitializeComponent();
@@ -30,16 +30,8 @@ namespace login
 
         private void BtnFinalizar_Clicked(object sender, EventArgs e)
         {
-            if (Monto.Text == "")
-            {
-                StatusMessage.Text = "Por favor introduzaca el monto";
-            }
-            else
-            {
-                StatusMessage.Text = string.Empty;
-                BitacoraRepository.Instancia.AddBit(PagPrincipal.nombreCliente, fecha.ToString(), float.Parse(Monto.Text));
-                StatusMessage.Text = BitacoraRepository.Instancia.EstadoMensaje;
-            }
+            Navigation.PushAsync(new Factura());
+                
         }
 
     }

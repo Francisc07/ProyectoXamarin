@@ -38,7 +38,7 @@ namespace login.Model
         }
 
         public string EstadoMensaje;
-        public int AddNewUser(string Usuario, string Password, string ConfirmarPassword)
+        public int AddNewUser(string Usuario, string Password, string ConfirmarPassword, int Rol)
         {
             int result = 0;
             try
@@ -47,7 +47,8 @@ namespace login.Model
                 {
                     Usuario = Usuario,
                     Password = Password,
-                    ConfirmarPassword = ConfirmarPassword
+                    ConfirmarPassword = ConfirmarPassword,
+                    Rol = Rol
                 });
                 EstadoMensaje = string.Format("Cantidad filas : {0}", result);
             }
@@ -66,6 +67,34 @@ namespace login.Model
                 EstadoMensaje = e.Message;
             }
             return Enumerable.Empty<User>();
+        }
+
+        public IEnumerable<User> Login(string user, string pass)
+        {
+            try
+            {
+
+                return con.Query<User>("SELECT * FROM User WHERE Usuario = '" + user + "' AND Password = '" + pass + "';");
+
+
+            }
+            catch (Exception e)
+            { EstadoMensaje = e.Message;  }
+            return Enumerable.Empty<User>();
+
+        }
+
+        public IEnumerable<User> Borrar()
+        {
+            try
+            {
+                con.Query<User>("DROP TABLE User");
+                EstadoMensaje = string.Format("Se Dropeo");
+            }
+            catch (Exception e)
+            { EstadoMensaje = e.Message; }
+            return Enumerable.Empty<User>();
+
         }
     }
 }

@@ -8,19 +8,30 @@
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" Padding="32" Spacing="10">
 
-            <Label Text="Inserte los Datos del cliente" HorizontalOptions="Center" FontSize="Large"/>
-            <Entry x:Name="txtNombre" Placeholder="Nombre"/>
-            <Entry x:Name="txtTelefono" Placeholder="Telefono"/>
-            <Entry x:Name="Monto" Placeholder="Monto a pagar"/>
+            <Label Text="Factura del cliente" HorizontalOptions="Center" FontSize="Large" TextColor="Black"/>
 
+            <Label Text="Nombre cliente" FontSize="Large"  TextColor="Black"/>
+            <Label Text="" x:Name="lblNombre" HorizontalOptions="Center" FontSize="Large"/>
 
-            <Entry x:Name="txtCorreo" Placeholder="Correo"/>
-            
+            <Label Text="Correo" FontSize="Large" TextColor="Black"/>
+            <Label Text="" x:Name="lblCorreo" HorizontalOptions="Center" FontSize="Large"/>
+
+            <Label Text="Telefono" FontSize="Large" TextColor="Black"/>
+            <Label Text="" x:Name="lblTelefono" HorizontalOptions="Center" FontSize="Large"/>
+
+            <Label Text="Fecha de entrega" FontSize="Large" TextColor="Black"/>
+            <Label Text="" x:Name="lblfecha" HorizontalOptions="Center" FontSize="Large"/>
+
+            <Label Text="Monto Pagado" FontSize="Large" TextColor="Black"/>
+            <Label Text="" x:Name="lblMonto" HorizontalOptions="Center" FontSize="Large"/>
+            <BoxView HeightRequest="30"></BoxView>
+
             <Button Text="Enviar Factura" 
                         x:Name="BtnFactura"
                         BackgroundColor="#732020" 
                         TextColor="White"
                         BorderRadius="20"
+                    Clicked="BtnFactura_Clicked"
                  />
         </StackLayout>
     </ContentPage.Content>

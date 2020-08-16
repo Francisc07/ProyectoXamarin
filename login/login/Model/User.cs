@@ -13,5 +13,6 @@ namespace login.Model
         public String Usuario { get; set; }
         public String Password { get; set; }
         public String ConfirmarPassword { get; set; }
+        public int Rol { get; set; }
     }
 }

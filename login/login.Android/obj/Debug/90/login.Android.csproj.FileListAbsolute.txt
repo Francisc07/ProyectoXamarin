@@ -2605,3 +2605,6 @@ C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login.Android\obj\D
 C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\DragAndDropGestureHandler.java
+C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\GradientStrokeDrawable.java
+C:\Users\franc\Source\Repos\Francisc07\ProyectoXamarin\login\login.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\GradientStrokeDrawable_GradientShaderFactory.java

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QQ1tgmo9/NBtOJrOPbg1jLbuSdoCbHfNU5JHlYS55EZb0qYTZdtuyrhYFA/Pd4GMizsECWQZrVE/acUCP4jkiQ==",
+  "dgSpecHash": "JcS0mu2G9SvwgR2R3xKUkCdWunerNtAVBDvixqqjBrSoWqecXOBAQ23aevL6mpgHS2pHamQYUthFTpE4xVhARw==",
   "success": true,
   "projectFilePath": "C:\\Users\\franc\\Source\\Repos\\Francisc07\\ProyectoXamarin\\login\\login\\login.csproj",
   "expectedPackageFiles": [
@@ -16,7 +16,7 @@
     "C:\\Users\\franc\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\franc\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\franc\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Users\\franc\\.nuget\\packages\\xamarin.forms\\4.7.0.1142\\xamarin.forms.4.7.0.1142.nupkg.sha512",
+    "C:\\Users\\franc\\.nuget\\packages\\xamarin.forms\\4.8.0.1269\\xamarin.forms.4.8.0.1269.nupkg.sha512",
     "C:\\Users\\franc\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
     "C:\\Users\\franc\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
   ],

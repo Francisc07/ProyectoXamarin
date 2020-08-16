@@ -22,15 +22,17 @@
 
 
                 <StackLayout Grid.Row="1"   Padding="30,20" >
-                    <Entry Placeholder=" Usuario" PlaceholderColor="White" x:Name="txtUser"/>
-                    <Entry Placeholder=" Contraseña test" PlaceholderColor="White" IsPassword="True" x:Name="txtPass"/>
+                    <Entry Placeholder=" Usuario" Text="" PlaceholderColor="White" x:Name="txtUser"/>
+                    <Entry Placeholder=" Contraseña test" Text="" PlaceholderColor="White" IsPassword="True" x:Name="txtPass"/>
                     <Label></Label>
                     <Button Text="Iniciar Sesion" BorderRadius="25" BackgroundColor="#B9EDFF" Clicked="Button_Clicked"/>
                     <Label></Label>
                     <Label  TextColor="#B9EDFF" x:Name="label1"/>
-                </StackLayout>
 
                     
+                </StackLayout>
+
+                
 
             </Grid>
         </Grid>

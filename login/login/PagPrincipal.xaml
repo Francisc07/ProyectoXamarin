@@ -28,6 +28,8 @@
                         TextColor="White"
                         BorderRadius="20"
                         Clicked="Button_Clicked"
+                        x:Name="btnQr"
+                        IsVisible="false"
                 />
 
                 <Button Text="Iniciar  Entrega  Sin  QR" 
@@ -35,6 +37,7 @@
                         BackgroundColor="#732020" 
                         TextColor="White"
                         BorderRadius="20"
+                        IsVisible="false"
                 />
                 
                 <Button Text="Factura" 
@@ -42,6 +45,7 @@
                         BackgroundColor="#732020" 
                         TextColor="White"
                         BorderRadius="20"
+                        IsVisible="false"
                 />
                 
                 <Button Text="Bitacora de Entregas" 
@@ -49,6 +53,7 @@
                         BackgroundColor="#732020" 
                         TextColor="White"
                         BorderRadius="20"
+                        IsVisible="false"
                 />
                 
                 <Button Text="Crear  Usuario" 
@@ -56,6 +61,7 @@
                         BackgroundColor="#732020" 
                         TextColor="White"
                         BorderRadius="20"
+                        IsVisible="false"
                        
                 />
                 
