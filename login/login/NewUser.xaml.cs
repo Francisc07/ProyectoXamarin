@@ -30,19 +30,27 @@ namespace login
         /*Se agrega el nuevo user*/
         private void BtnInsert_Clicked(object sender, EventArgs e)
         {
+            
             if (txtUsuario.Text == "" || txtPass1.Text == "" || txtPass2.Text == "" || txtRol.Text == "")
             {
-                StatusMessage.Text = "Todos los campos deben estar llenos";
+                DisplayAlert("Error","Todos los campos deben estar llenos","Ok");
             }
             else {
-                if (txtRol.Text !=  "1" && txtRol.Text != "2")
+                if (txtPass1.Text != txtPass2.Text)
                 {
-                    StatusMessage.Text = "Los roles deben ser 1 o 2";
+                    DisplayAlert("Error", "Las contraseñas no coinciden", "Ok");
                 }
                 else {
-                    StatusMessage.Text = string.Empty;
-                    UserRepository.Instancia.AddNewUser(txtUsuario.Text, txtPass1.Text, txtPass2.Text, int.Parse(txtRol.Text));
-                    StatusMessage.Text = UserRepository.Instancia.EstadoMensaje;
+                    if (txtRol.Text != "1" && txtRol.Text != "2")
+                    {
+                        DisplayAlert("Error", "Los roles deben ser 1 o 2", "Ok");
+                    }
+                    else
+                    {
+                        StatusMessage.Text = string.Empty;
+                        UserRepository.Instancia.AddNewUser(txtUsuario.Text, txtPass1.Text, txtPass2.Text, int.Parse(txtRol.Text));
+                        StatusMessage.Text = UserRepository.Instancia.EstadoMensaje;
+                    }
                 }
             }
                 

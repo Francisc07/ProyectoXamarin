@@ -64,7 +64,15 @@
                         IsVisible="false"
                        
                 />
-                
+
+                <Button Text="Salir" 
+                        x:Name="btnToSalir"
+                        BackgroundColor="#732020" 
+                        TextColor="White"
+                        BorderRadius="20"
+                       Clicked="btnToSalir_Clicked"
+                />
+
             </StackLayout>
         </Grid>
     </ContentPage.Content>

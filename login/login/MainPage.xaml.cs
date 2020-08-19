@@ -24,6 +24,7 @@ namespace login
 
         private void Button_Clicked(object sender, EventArgs e)
         {
+
             if (txtUser.Text == "" || txtPass.Text == "")
             {
                 label1.Text = "Introduzca su usuario y contraseña";

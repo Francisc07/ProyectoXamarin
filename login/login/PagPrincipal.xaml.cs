@@ -50,6 +50,11 @@ namespace login
 
         }
 
+        private void btnToSalir_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MainPage());
+        }
+
         private async void Scanner()
         {
             var scannerPage = new ZXingScannerPage();
