@@ -13,7 +13,8 @@ namespace login
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Factura : ContentPage
     {
-        public Factura()
+        int val;
+        public Factura(int modo)
         {
             InitializeComponent();
 
@@ -23,18 +24,48 @@ namespace login
             lblTelefono.Text = PagPrincipal.telefono;
             lblfecha.Text = FinPedido.fecha.ToString();
             lblMonto.Text = "₡ " + FinPedido.monto;
+            val = modo;
         }
 
+
+        
         private async void BtnFactura_Clicked(object sender, EventArgs e)
         {
-            BitacoraRepository.Instancia.AddBit(lblNombre.Text, lblfecha.Text, lblMonto.Text);
+            if (val == 0)
+            {
+                if (lblMonto.Text == "₡ 0")
+                {
+                    await DisplayAlert("Error", "Debe agregar una factura primero", "Ok");
+                }
+                else
+                {
+                    BitacoraRepository.Instancia.AddBit(lblNombre.Text, lblfecha.Text, lblMonto.Text);
 
-            List<string> toAddress = new List<string>();
-            toAddress.Add("" + lblCorreo.Text);
-            await SendEmail("Factura de entrega Transremont", "Factura del Cliente \n Nombre Cliente: " + PagPrincipal.nombreCliente + "\n Correo: " + PagPrincipal.mail + "\n Telefono: " + PagPrincipal.telefono + "\n Fecha de entrega: " + FinPedido.fecha + "\n Monto Pagado: " + lblMonto.Text + "", toAddress);
+                    List<string> toAddress = new List<string>();
+                    toAddress.Add("" + lblCorreo.Text);
+                    await SendEmail("Factura de entrega Transremont", "Factura del Cliente \n Nombre Cliente: " + PagPrincipal.nombreCliente + "\n Correo: " + PagPrincipal.mail + "\n Telefono: " + PagPrincipal.telefono + "\n Fecha de entrega: " + FinPedido.fecha + "\n Monto Pagado: " + lblMonto.Text + "", toAddress);
 
+                }
+            }
+            else {
+                if (lblMonto.Text == "₡ 0")
+                {
+                    await DisplayAlert("Error", "Debe agregar una factura primero", "Ok");
+                }
+                else
+                {
+
+                    List<string> toAddress = new List<string>();
+                    toAddress.Add("" + lblCorreo.Text);
+                    await SendEmail("Factura de entrega Transremont", "Factura del Cliente \n Nombre Cliente: " + PagPrincipal.nombreCliente + "\n Correo: " + PagPrincipal.mail + "\n Telefono: " + PagPrincipal.telefono + "\n Fecha de entrega: " + FinPedido.fecha + "\n Monto Pagado: " + lblMonto.Text + "", toAddress);
+
+                }
+            }
             
+
+
         }
+
         public async Task SendEmail(string subject, string body, List<string> recipients)
         {
             try

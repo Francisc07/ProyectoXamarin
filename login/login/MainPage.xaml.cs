@@ -36,7 +36,7 @@ namespace login
 
                 if (log.Count() == 0)
                 {
-                    label1.Text = "no existe";
+                    label1.Text = "El usuario o la contraseñan no coinciden";
                 }
                 else
                 {
@@ -55,7 +55,7 @@ namespace login
                 }
 
 
-            }
+            } 
 
         }
     }

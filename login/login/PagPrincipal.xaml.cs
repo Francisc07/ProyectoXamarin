@@ -41,7 +41,7 @@ namespace login
             };
             btnFactura.Clicked += (sender, e) =>
             {
-                Navigation.PushAsync(new Factura());
+                Navigation.PushAsync(new Factura(1));
             };
             btnBitacora.Clicked += (sender, e) =>
             {

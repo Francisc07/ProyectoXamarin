@@ -7,21 +7,27 @@
              x:Class="login.EntregaSinQR">
     <ContentPage.Content>
 
-        <StackLayout Orientation="Vertical" Padding="32" Spacing="10">
-            
-            <Label Text="Inserte los Datos del cliente" HorizontalOptions="Center" FontSize="Large"/>
-            <Entry x:Name="txtNombre" Placeholder="Nombre"/>
-            <Entry x:Name="txtTelefono" Placeholder="Telefono"/>
-            <Entry x:Name="txtCorreo" Placeholder="Correo"/>
+        <Grid>
+            <BoxView Color="#1E1D1D" />
+            <StackLayout Orientation="Vertical" Padding="32" Spacing="10">
 
-            <Entry x:Name="txtDireccion" Placeholder="URL Dirección"/>
+                <Label Text="Inserte los Datos del cliente"  HorizontalOptions="Center" FontSize="Large" TextColor="White"/>
+                <Entry Text="" x:Name="txtNombre" Placeholder="Nombre" PlaceholderColor="White" TextColor="White"/>
+                <Entry Text="" x:Name="txtTelefono" Placeholder="Telefono" PlaceholderColor="White" TextColor="White"/>
+                <Entry Text="" x:Name="txtCorreo" Placeholder="Correo" PlaceholderColor="White" TextColor="White"/>
 
-            <Button Text="Iniciar Viaje" 
+                <Entry x:Name="txtLat" Text="9.941212" Placeholder="URL Dirección" PlaceholderColor="White" TextColor="White"/>
+                <Entry x:Name="txtLong" Text="-84.0780812" Placeholder="URL Dirección" PlaceholderColor="White" TextColor="White"/>
+                <Button Text="Iniciar Viaje" 
                         x:Name="BtnIniciar"
                         BackgroundColor="#732020" 
                         TextColor="White"
                         BorderRadius="20"
+                        Clicked="BtnIniciar_Clicked"
                  />
-        </StackLayout>
+            </StackLayout>
+        </Grid>
+
+        
     </ContentPage.Content>
 </ContentPage>

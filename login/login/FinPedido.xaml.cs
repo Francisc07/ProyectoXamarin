@@ -31,7 +31,7 @@ namespace login
 
         private void BtnFinalizar_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Factura());
+            Navigation.PushAsync(new Factura(0));
                 
         }
 
